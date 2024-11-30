@@ -1,0 +1,219 @@
+.index{
+    background-image: url(img/cofee2background.jpg);
+    background-size: cover;
+    
+}    
+.bodyContainer{
+    background-color: white;
+}
+.menuBar{
+    display: flex;
+}
+.logo{
+    width: 41%;
+}
+.menulist{
+
+    width:33%;
+    
+}
+.ul{
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.ul{
+    list-style: none;
+    font-size: x-large;
+    color: rgb(173, 5, 5);
+}   
+.quote{
+    font-size: 77px;
+    padding-left: 75px;
+    padding-top: 51px;
+    padding-bottom: 30px;
+    color: rgb(173, 5, 5);
+    font-weight: bold;
+}   
+.discription{
+    width: 40%;
+    padding: 37px 0px 26px 78px;
+    color: rgb(173,5,5);
+    padding: top;
+}
+.submit{
+    width: 40%;
+    padding: 37px 0px 0px 78px;
+    color: rgb(173,5,5);
+    padding: top;
+}
+.submit button{
+    font-style: normal;
+    font-size: large;
+    background: #a71c14;
+    color: #ffffff;
+}
+.contents{
+    padding: 16px 0px 90px 0px;
+}
+.logo img{
+    height: 71px;
+    padding-left: 59px;
+}
+.index2{
+    display: flex;
+}
+.image1{
+    width: 50%;
+    padding: 122px 0px 40px 72px;
+}
+.image1 img{
+    box-shadow:46px 34px 2px 1px rgb(227 85 74 / 71%);
+    width: 66%;
+   
+}
+.ourStory{
+    width:50%;
+    text-align: justify;
+    padding: 77px 149px 0px 0px;
+    color: rgb(173, 5, 5);
+    font-size:large
+}
+
+.index3{
+    display:flex;
+}
+.image2{
+    width:50%;
+    padding: 79px 0px 0px 219px;
+}
+.image2 img{
+    box-shadow:-32px 36px 2px 1px rgb(227 85 74 / 71%);
+    width: 66%;
+    height: 65%;
+
+}
+.chooseCoffee{
+    width: 50%;
+    padding-right: 217px;
+    padding: 43px 0px 40px 72px;
+    color: rgb(173, 5, 5);
+    font-size:large
+}
+.locationTitle{
+    margin:20px;
+    color: rgb(173, 5, 5);
+    font-size:x-large;
+    font-weight: bold;
+}
+.locations{
+    display:flex;
+}
+.location1{
+    width:33.33%;
+   
+}
+.location2{
+    width:33.33%;
+}
+.location3{
+    padding-right: 50px;
+    width:33.33%;
+}
+.location1 img{
+    width:77%;
+    height: 50%;
+    padding: 10px 0px 0px 72px;
+    
+}
+.location2 img{
+    width:77%;
+    height: 50%;
+    padding:13px 0px 0px 85px;
+   
+}
+.location3 img{
+    width:77%;
+    height: 50%;
+    padding: 13px 0px 0px 96px;
+}
+.location1Details{
+    color: rgb(173, 5, 5);
+   
+    background-color: #eb987fb2;
+    margin-right: 28px;
+    margin-left: 72px;
+    padding: 10px;
+}
+.location2Details{
+    color: rgb(173, 5, 5);
+   
+    background-color: #eb987fb2;
+    margin-left: 85px;
+    margin-right: 15px;
+    padding: 10px;
+}
+.location3Details{
+    color: rgb(173, 5, 5);
+    
+    margin-left: 96px;
+    margin-right: 4px;
+    padding: 10px;
+    background-color:#eb987fb2;
+}
+
+
+.location1Details h3{
+    padding-left: 246px;
+}
+.location2Details h3{
+    padding-left: 233px;
+}
+.location3Details h3{
+    padding-left: 237px;
+}
+
+.aboutUs{
+    color: rgb(173, 5, 5);
+    font-size:x-large;
+    font-weight: bold;
+}
+.page4Contents{
+    display: flex;
+    background-color:#eb987fb2;
+}
+.twoCoffeeImage{
+    width:50%;
+    padding: 63px 37px 63px 70px;
+}
+.page4description{
+    width:50%;
+    padding-right:70px;
+    color:rgb(142, 0,0); ;
+}
+#Title4{
+    color: rgb(142, 0,0);
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+.lastPageContent{
+    display: flex;
+}
+.lastlogo{
+    width: 33.33%;
+}
+.DownTownCarry{
+    color: rgb(142, 0,0);
+    padding: 135px 0px 0px 156px;
+    width: 33.33%;
+
+}
+.newLocation{
+    color: rgb(142, 0,0);
+    padding: 137px 0px 0px 43px;
+    width: 33.33%;
+}
+.overall{
+    background-color:  #dd1010b0;
+    padding: 100px;
+}
