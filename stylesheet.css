@@ -8,6 +8,8 @@
 }
 .menuBar{
     display: flex;
+    
+    flex-wrap: wrap;
 }
 .logo{
     width: 41%;
@@ -108,70 +110,34 @@
 }
 .locations{
     display:flex;
+    justify-content: center;
+    padding: 0px 25px;
+    flex-wrap: wrap;
+  
+    gap: 25px;
 }
-.location1{
-    width:33.33%;
-   
-}
-.location2{
-    width:33.33%;
-}
-.location3{
-    padding-right: 50px;
-    width:33.33%;
-}
-.location1 img{
-    width:77%;
-    height: 50%;
-    padding: 10px 0px 0px 72px;
+.locations .location {
     
-}
-.location2 img{
-    width:77%;
-    height: 50%;
-    padding:13px 0px 0px 85px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
    
-}
-.location3 img{
-    width:77%;
-    height: 50%;
-    padding: 13px 0px 0px 96px;
-}
-.location1Details{
-    color: rgb(173, 5, 5);
-   
-    background-color: #eb987fb2;
-    margin-right: 28px;
-    margin-left: 72px;
-    padding: 10px;
-}
-.location2Details{
-    color: rgb(173, 5, 5);
-   
-    background-color: #eb987fb2;
-    margin-left: 85px;
-    margin-right: 15px;
-    padding: 10px;
-}
-.location3Details{
-    color: rgb(173, 5, 5);
-    
-    margin-left: 96px;
-    margin-right: 4px;
-    padding: 10px;
-    background-color:#eb987fb2;
 }
 
+ 
+.location img{
+    width:100%;
+    height: 300px;
+    
+}
 
-.location1Details h3{
-    padding-left: 246px;
+.locationDetails{
+    flex:1;
+    color: rgb(173, 5, 5);
+    background-color: #eb987fb2;
+    padding: 10px;
 }
-.location2Details h3{
-    padding-left: 233px;
-}
-.location3Details h3{
-    padding-left: 237px;
-}
+
 
 .aboutUs{
     color: rgb(173, 5, 5);
@@ -180,15 +146,22 @@
 }
 .page4Contents{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color:#eb987fb2;
 }
 .twoCoffeeImage{
-    width:50%;
-    padding: 63px 37px 63px 70px;
+   flex: 1 1 45%;
+  
+}
+.twoCoffeeImage img{
+    width: 100%;
+    height: 100%;
 }
 .page4description{
-    width:50%;
-    padding-right:70px;
+   
+    flex:1 1 45%;
+    padding:15px;
     color:rgb(142, 0,0); ;
 }
 #Title4{
@@ -198,22 +171,37 @@
 }
 .lastPageContent{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .lastlogo{
-    width: 33.33%;
+   flex:1 1 20%;
+  
+    
 }
-.DownTownCarry{
+.lastlogo img{
+    width: 80%;
+    min-height: 450px;
+}
+
+.DownTownCarry ,.newLocation{
     color: rgb(142, 0,0);
-    padding: 135px 0px 0px 156px;
-    width: 33.33%;
+   
+    
+  
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 250px;
+    padding: 10px;
 
 }
-.newLocation{
-    color: rgb(142, 0,0);
-    padding: 137px 0px 0px 43px;
-    width: 33.33%;
-}
+
 .overall{
     background-color:  #dd1010b0;
     padding: 100px;
 }
+
+
+
